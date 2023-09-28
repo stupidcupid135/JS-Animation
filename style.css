@@ -1,0 +1,12 @@
+#container {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    background: blue;
+}
+#box {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
