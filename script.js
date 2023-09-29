@@ -30,5 +30,6 @@ function frame() {
         pos++;
         box.style.top = pos + 'px';
         box.style.left = pos + 'px';
+        box.style.width = 200 + pos + 'px';
     }
 }
