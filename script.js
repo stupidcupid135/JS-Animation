@@ -29,7 +29,8 @@ function frame() {
     } else if (moving) {
         pos++;
         box.style.top = pos + 'px';
-        box.style.left = pos + 'px';
+        //box.style.left = pos + 'px';
         box.style.width = 200 + pos + 'px';
+        box.style.height = 400 - pos + 'px';
     }
 }
